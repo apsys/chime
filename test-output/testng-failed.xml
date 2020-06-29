@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="com.test.chime.TakeHomeTest">
+        <methods>
+          <include name="testOne"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testTwo"/>
+        </methods>
+      </class> <!-- com.test.chime.TakeHomeTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
